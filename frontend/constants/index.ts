@@ -1,9 +1,9 @@
-import DrakeHotlineBling from '../../artifacts/contracts/DrakeHotlineBling.sol/DrakeHotlineBling.json';
-import DrakeInMyFeelings from '../../artifacts/contracts/DrakeInMyFeelings.sol/DrakeInMyFeelings.json';
-import EminemLoseYourself from '../../artifacts/contracts/EminemLoseYourself.sol/EminemLoseYourself.json';
-import EminemRapGod from '../../artifacts/contracts/EminemRapGod.sol/EminemRapGod.json';
-import TaylorSwiftBlankSpace from '../../artifacts/contracts/TaylorSwiftBlankSpace.sol/TaylorSwiftBlankSpace.json';
-import TaylorSwiftShakeItOff from '../../artifacts/contracts/TaylorSwiftShakeItOff.sol/TaylorSwiftShakeItOff.json';
+import DrakeHotlineBling from '../../backend/artifacts/contracts/DrakeHotlineBling.sol/DrakeHotlineBling.json';
+import DrakeInMyFeelings from '../../backend/artifacts/contracts/DrakeInMyFeelings.sol/DrakeInMyFeelings.json';
+import EminemLoseYourself from '../../backend/artifacts/contracts/EminemLoseYourself.sol/EminemLoseYourself.json';
+import EminemRapGod from '../../backend/artifacts/contracts/EminemRapGod.sol/EminemRapGod.json';
+import TaylorSwiftBlankSpace from '../../backend/artifacts/contracts/TaylorSwiftBlankSpace.sol/TaylorSwiftBlankSpace.json';
+import TaylorSwiftShakeItOff from '../../backend/artifacts/contracts/TaylorSwiftShakeItOff.sol/TaylorSwiftShakeItOff.json';
 
 export const SONG_ADDRESSES = [
   '0xa06AdEA2e981B412561703e8e96C883D7caDc81b',
