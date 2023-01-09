@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import SmartAccount from '@biconomy/smart-account';
 import { useAuth } from '../context/AuthContext';
 
-import DiscussionsContract from '../../artifacts/contracts/Discussions.sol/Discussions.json';
+import DiscussionsContract from '../../backend/artifacts/contracts/Discussions.sol/Discussions.json';
 
 export let activeChainId = ChainId.POLYGON_MUMBAI;
 export const supportedChains = [
