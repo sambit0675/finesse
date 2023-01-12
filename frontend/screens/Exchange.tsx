@@ -13,6 +13,13 @@ import Navbar from '../components/Navbar';
 
 const ExchangeScreen = () => {
   const Router = useRouter();
+ 
+ async function EnsName() {
+  const { provider, signerAddress, getSigner, isConnected, getWalletAddress } = useAuth();
+  const Ensname = await provider.lookupAddress(signerAddress);
+  console.log("Ensname", Ensname)
+}
+
 
   const { provider, signerAddress, getSigner, isConnected, getWalletAddress } =
     useAuth();
