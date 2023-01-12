@@ -3,7 +3,7 @@ import { abi as UniswapV3Factory } from '@uniswap/v3-core/artifacts/contracts/Un
 import { abi as IUniswapV3PoolABI } from '@uniswap/v3-core/artifacts/contracts/interfaces/IUniswapV3Pool.sol/IUniswapV3Pool.json';
 import { abi as QuoterABI } from '@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json';
 
-import { abi as DrakeHotlineBlingABI } from '../../artifacts/contracts/DrakeHotlineBling.sol/DrakeHotlineBling.json';
+import { abi as DrakeHotlineBlingABI } from '../../backend/artifacts/contracts/DrakeHotlineBling.sol/DrakeHotlineBling.json';
 
 import { getAbi, getPoolImmutables } from '../utils';
 
