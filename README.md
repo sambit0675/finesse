@@ -21,7 +21,7 @@ Besides these privileges, coin holders can also engage in on-chain discussions t
 Every artist is initially allocated with 20 coins of each of their songs. They can put these coins into the liquidity pool at any point and trade them for MATIC depending on the current spot price of these coins. These coins are stored in the contract when the coins are first minted and are transferred to the artist after a verification process.
 
 ## Technologies I used
-Next.js, Biconomy, Uniswap, Livepeer, Polygon, NFTPort, web3.Storage, Huddle01, Push Chat
+Next.js, Biconomy, Uniswap, Livepeer, Polygon, NFTPort, web3.Storage, Huddle01, Push Chat, Ens
 
 ## Bounties
 
@@ -37,7 +37,10 @@ The Iron and Bronze Tiers on Finesse allows users to mint special NFTs (a person
 ### Livepeer
 The Gold Tier on Finesse gives fans access to an exclusive live stream by their favourite music artists. These live streams are done using Livepeer Studio. I have created Stream objects for different artists on the dashboard and embedded Livepeer's video player on my platform so fans can watch the streams right there.
 
-### IPFS
+### Ens
+Fetching the Ens profile ( Avater and Profile name)
+
+### IPFS & web3.Storage
 The Silver Tier on Finesse gives fans access to an exclusive unreleased song from their favourite music artist. This song is stored on IPFS using web3.storage. The artist uploads their song audio file and it is then retrieved by the fans.
 
 ### Huddle01
