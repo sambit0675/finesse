@@ -25,26 +25,42 @@ Next.js, Biconomy, Uniswap, Livepeer, Polygon, NFTPort, web3.Storage, Huddle01, 
 
 ## Bounties
 
-### Polygon
-Finesse is built and deployed on the Polygon Mumbai testnet. All song coins are ERC20 tokens minted on Polygon. All smart contracts including the gasless transactions-compliant contract, are all deployed on Polygon testnet. The Uniswap liquidity pool are also on Polygon and users trade MATIC for the song coins on Finesse.
+### Polygon 
+* Finesse is built and deployed on the Polygon Mumbai testnet. All song coins are ERC20 tokens minted on Polygon. 
+* All smart contracts including the gasless transactions-compliant contract, are all deployed on Polygon testnet. 
+* The Uniswap liquidity pool are also on Polygon and users trade MATIC for the song coins on Finesse.
+* https://github.com/sambit0675/finesse/tree/main/backend
 
 ### Push Protocol
-The Platinum Tier on Finesse gives fans access to one-on-one chat messaging with their favourite music artists. This is implemented using Push Chat (@pushprotocol/uiweb@0.2.3) on my frontend.
+* The Platinum Tier on Finesse gives fans access to one-on-one chat messaging with their favourite music artists. 
+* This is implemented using Push Chat (@pushprotocol/uiweb@0.2.3) on my frontend.
+* https://github.com/sambit0675/finesse/blob/main/frontend/components/PlatinumTierCard.tsx#L29
 
 ### NFTPort
-The Iron and Bronze Tiers on Finesse allows users to mint special NFTs (a personalised artist NFT for the Iron Tier and an NFT concert ticket for the Bronze tier). I have used BannerBear to generate dynamic images and then used the NFTPort API to conveniently mint them at no cost for the users.
+* The Iron and Bronze Tiers on Finesse allows users to mint special NFTs (a personalised artist NFT for the Iron Tier and an NFT concert ticket for the Bronze tier). 
+* I have used BannerBear to generate dynamic images and then used the NFTPort API to conveniently mint them at no cost for the users.
+* https://github.com/sambit0675/finesse/blob/main/frontend/hooks/useNFTPort.ts
 
 ### Livepeer
-The Gold Tier on Finesse gives fans access to an exclusive live stream by their favourite music artists. These live streams are done using Livepeer Studio. I have created Stream objects for different artists on the dashboard and embedded Livepeer's video player on my platform so fans can watch the streams right there.
+* The Gold Tier on Finesse gives fans access to an exclusive live stream by their favourite music artists. 
+* These live streams are done using Livepeer Studio.
+*  I have created Stream objects for different artists on the dashboard and embedded Livepeer's video player on my platform so fans can watch the streams right there.
+*  https://github.com/sambit0675/finesse/blob/main/frontend/pages/_app.tsx
 
 ### Ens
-Fetching the Ens profile ( Avater and Profile name)
+* Fetching the Ens profile ( Avater and Profile name)
+* https://github.com/sambit0675/finesse/blob/main/frontend/hooks/useEns.tsx
 
 ### IPFS & web3.Storage
-The Silver Tier on Finesse gives fans access to an exclusive unreleased song from their favourite music artist. This song is stored on IPFS using web3.storage. The artist uploads their song audio file and it is then retrieved by the fans.
+* The Silver Tier on Finesse gives fans access to an exclusive unreleased song from their favourite music artist.
+*  This song is stored on IPFS using web3.storage. 
+*  The artist uploads their song audio file and it is then retrieved by the fans.
+*  https://github.com/sambit0675/finesse/blob/main/frontend/hooks/useWeb3Storage.ts
 
 ### Huddle01
-The Diamond Tier on Finesse gives fans access to an exclusive one-on-one video call with their favourite music artist. This is implemented using the Huddle01 iFrame and the video calls are embedded right on my platform.
+* The Diamond Tier on Finesse gives fans access to an exclusive one-on-one video call with their favourite music artist. 
+* This is implemented using the Huddle01 iFrame and the video calls are embedded right on my platform.
+* https://github.com/sambit0675/finesse/blob/main/frontend/components/DiamondTierCard.tsx
 
 ## Contract Addresses
 DrakeHotlineBling deployed at: [0xa06AdEA2e981B412561703e8e96C883D7caDc81b](https://mumbai.polygonscan.com/address/0xa06AdEA2e981B412561703e8e96C883D7caDc81b)
